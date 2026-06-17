@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-ai-alibaba-demo
+  ai:
+    dashscope:
+      api-key: sk-245a6d581a7041929bf8749a0b6575b4
+      chat:
+        base-url: https://api.deepseek.com
+        options:
+          model: deepseek-v4-pro
+
+server:
+  port: 8080
